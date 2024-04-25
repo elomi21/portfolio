@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "title": "Riding Cities",
+    "lien": "https://elomi21.github.io/Riding_cities/",
+    "repository": "https://github.com/elomi21/Riding_cities.git",
+    "type_projet": "Projet réalisé dans le cadre de ma formation",
+    "photos": "",
+    "cover": "RidingCities.webp",
+    "langages": ["html-1.svg", "css-3.svg"],
+    "description_projet": "Pour un stage en tant que développeur junior, on m'a confié la mission de mettre à jour de la page Internet de Riding Cities, une association sportive qui promeut le skate en région. À l'aide de la maquette qui m'a été fournit, j'ai pu éffectué les changements afin de répondre au besoin de notre client."
+  },
+  {
+    "id": "2",
+    "title": "Booki",
+    "lien": "https://elomi21.github.io/booki/",
+    "repository": "https://github.com/elomi21/booki.git",
+    "type_projet": "Projet réalisé dans le cadre de ma formation",
+    "photos": "",
+    "cover": "RidingCities.webp",
+    "langages": ["html-1.svg", "css-3.svg"],
+    "description": "En tant qu'alternante développeuse web, au sein de la start-up Booki. J’ai été chargée d'intégrer l'interface responsive du site, avec du code HTML et CSS. Pour mener à bien cette mission, j'avais à ma disposition les maquettes Figma pour mobile, tablette et desktop."
+  },
+  {
+    "id": "3",
+    "title": "",
+    "lien": "https://elomi21.github.io/ohmyfood/",
+    "repository": "https://github.com/elomi21/ohmyfood.git",
+    "type_projet": "Projet réalisé dans le cadre de ma formation",
+    "photos": "",
+    "cover": "RidingCities.webp",
+    "langages": "",
+    "description": ""
+  },
+  {
+    "id": "4",
+    "title": "",
+    "lien": "",
+    "repository": "",
+    "type_projet": "Projet réalisé dans le cadre de ma formation",
+    "photos": "",
+    "cover": "RidingCities.webp",
+    "langages": "",
+    "description": ""
+  },
+  {
+    "id": "5",
+    "title": "",
+    "lien": "",
+    "repository": "",
+    "type_projet": "Projet réalisé dans le cadre de ma formation",
+    "photos": "",
+    "cover": "RidingCities.webp",
+    "langages": "",
+    "description": ""
+  },
+  {
+    "id": "6",
+    "title": "",
+    "lien": "",
+    "repository": "",
+    "type_projet": "Projet réalisé dans le cadre de ma formation",
+    "photos": "",
+    "cover": "RidingCities.webp",
+    "langages": "",
+    "description": ""
+  },
+  {
+    "id": "7",
+    "title": "",
+    "lien": "",
+    "repository": "",
+    "type_projet": "Projet réalisé dans le cadre de ma formation",
+    "photos": "",
+    "cover": "RidingCities.webp",
+    "langages": "",
+    "description": ""
+  },
+  {
+    "id": "8",
+    "title": "",
+    "lien": "",
+    "repository": "",
+    "type_projet": "Projet personnel",
+    "photos": "",
+    "cover": "RidingCities.webp",
+    "langages": "",
+    "description": ""
+  }
+]

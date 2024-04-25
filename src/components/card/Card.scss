@@ -1,0 +1,68 @@
+@import "../../style/Main.scss";
+ul {
+  list-style-type: none;
+}
+.card {
+  max-width: 1000px;
+  height: 415px;
+  margin: 0px auto 30px auto;
+  position: relative;
+  padding: 0px 19px;
+  border: 2px solid red;
+  position: relative;
+  .card-img {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: 415px;
+  }
+  .card-link {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 65%;
+    left: 41%;
+    text-decoration: none;
+    .card-link_name {
+      font-size: 24px;
+      color: #75708e;
+    }
+    .card-link_logo {
+      width: 35px;
+      height: auto;
+    }
+  }
+  .card-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 300px;
+    height: 150px;
+    border: 2px solid red;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    background: rgba(114, 89, 121, 0.172);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    .card-description_title {
+      border: 2px solid blue;
+
+      margin: 0px;
+    }
+    .card-description_langage {
+      border: 2px solid green;
+
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      .card-description_langage_img {
+        width: 50px;
+        height: auto;
+      }
+    }
+  }
+}

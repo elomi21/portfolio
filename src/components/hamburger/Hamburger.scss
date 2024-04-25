@@ -1,0 +1,19 @@
+.hamburger {
+  display: none;
+}
+@media (max-width: 450px) {
+  .hamburger {
+    width: 40px;
+    height: 29px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 20px;
+  }
+  .burger {
+    width: 40px;
+    height: 4px;
+    background-color: white;
+    border-radius: 10px;
+  }
+}
