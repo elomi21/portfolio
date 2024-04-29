@@ -1,70 +1,69 @@
 @import "../../style/Main.scss";
 
-.container-k-carousel {
-  max-width: 1240px;
+.carousel {
+  padding: 40px 50px;
+}
+.container-carousel {
+  max-width: 1000px;
   height: 415px;
   margin: 0px auto 30px auto;
   position: relative;
   padding: 0px 19px;
 
-  .k-sl-al {
+  .c-sl-al {
     position: absolute;
     top: 156.7px;
     left: 46px;
+    z-index: 10;
   }
-  .k-sl-ar {
+  .c-sl-ar {
     position: absolute;
     top: 156.7px;
     right: 46px;
+    z-index: 10;
   }
+  .c-sl-counter {
+    max-width: 1000px;
+    height: 100px;
 
-  .k-sl-slide {
-    border-radius: 10px;
-    object-fit: cover;
-    width: 100%;
-    height: 415px;
-  }
-  .k-sl-counter {
-    position: absolute;
     color: white;
     text-align: center;
     font-size: 18px;
-    bottom: 25px;
-    left: 49%;
+    margin: 0px auto;
   }
 }
 @media (min-width: 950px) and (max-width: 451px) {
-  .container-k-carousel {
+  .container-carousel {
     max-width: 100%;
     margin: 0px 30px 30px 30px;
   }
 }
 @media (max-width: 450px) {
-  .container-k-carousel {
+  .container-carousel {
     max-width: 100%;
     height: 255px;
     margin: 0 auto 19px auto;
     padding: 0px 19px;
 
-    .k-sl-al {
+    .c-sl-al {
       width: 24px;
       height: 24px;
       top: 45%;
       left: 23px;
     }
-    .k-sl-ar {
+    .c-sl-ar {
       width: 24px;
       height: 24px;
       top: 45%;
       right: 23px;
     }
-    .k-sl-slide {
+    .c-sl-slide {
       border-radius: 10px;
       object-fit: cover;
       width: 100%;
       height: 255px;
     }
-    .k-sl-counter {
+    .c-sl-counter {
       display: none;
     }
   }
