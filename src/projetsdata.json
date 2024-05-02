@@ -19,7 +19,7 @@
     "photos": "",
     "cover": "booki.webp",
     "langages": ["html-1.svg", "css-3.svg"],
-    "description": "En tant qu'alternante développeuse web, au sein de la start-up Booki. J’ai été chargée d'intégrer l'interface responsive du site, avec du code HTML et CSS. Pour mener à bien cette mission, j'avais à ma disposition les maquettes Figma pour mobile, tablette et desktop."
+    "description_projet": "En tant qu'alternante développeuse web, au sein de la start-up Booki. J’ai été chargée d'intégrer l'interface responsive du site, avec du code HTML et CSS. Pour mener à bien cette mission, j'avais à ma disposition les maquettes Figma pour mobile, tablette et desktop."
   },
   {
     "id": "3",
@@ -30,7 +30,7 @@
     "photos": "",
     "cover": "ohmyfood.webp",
     "langages": ["html-1.svg", "sass-1.svg"],
-    "description": "En tant que développeuse junior, j'ai intégré Ohmyfood. Il s’agit d’une jeune start-up qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. Ma mission est de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée."
+    "description_projet": "En tant que développeuse junior, j'ai intégré Ohmyfood. Il s’agit d’une jeune start-up qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. Ma mission est de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée."
   },
   {
     "id": "4",
@@ -41,7 +41,7 @@
     "photos": "",
     "cover": "print.webp",
     "langages": ["html-1.svg", "javascript-1.svg", "sass-1.svg"],
-    "description": "Je débute comme développeuse front-end en freelance, et je viens de décrocher une offre pour dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it. On me demande de réaliser un carousel."
+    "description_projet": "Je débute comme développeuse front-end en freelance, et je viens de décrocher une offre pour dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it. On me demande de réaliser un carousel."
   },
   {
     "id": "5",
@@ -52,7 +52,7 @@
     "photos": "",
     "cover": "Sophie.webp",
     "langages": ["html-1.svg", "javascript-1.svg", "css-3.svg"],
-    "description": "Je travaille comme développeuse front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé vmon dernier projet avec un peu d'avance, je suis envoyée en renfort comme développeuse front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.Vous devez donc développer :la page de présentation des travaux de l'architecte (à partir du HTML fourni) ;la page de connexion de l'administrateur du site (le client) (code à créer de zéro) ;la modale permettant d'uploader de nouveaux médias (code à créer from scratch)."
+    "description_projet": "Je travaille comme développeuse front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé vmon dernier projet avec un peu d'avance, je suis envoyée en renfort comme développeuse front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.Vous devez donc développer :la page de présentation des travaux de l'architecte (à partir du HTML fourni) ;la page de connexion de l'administrateur du site (le client) (code à créer de zéro) ;la modale permettant d'uploader de nouveaux médias (code à créer from scratch)."
   },
   {
     "id": "6",
@@ -63,7 +63,7 @@
     "photos": "",
     "cover": "kasa.webp",
     "langages": ["html-1.svg", "react-2.svg", "sass-1.svg"],
-    "description": ""
+    "description_projet": ""
   },
   {
     "id": "7",
@@ -74,7 +74,7 @@
     "photos": "",
     "cover": "nina1.webp",
     "langages": ["html-1.svg", "css-3.svg"],
-    "description": ""
+    "description_projet": ""
   },
   {
     "id": "8",
@@ -85,7 +85,7 @@
     "photos": "",
     "cover": "724events.webp",
     "langages": ["html-1.svg", "react-2.svg", "sass-1.svg"],
-    "description": ""
+    "description_projet": ""
   },
   {
     "id": "9",
@@ -96,7 +96,7 @@
     "photos": "",
     "cover": "argentbank.webp",
     "langages": ["html-1.svg", "react-2.svg", "sass-1.svg"],
-    "description": ""
+    "description_projet": ""
   },
   {
     "id": "10",
@@ -107,7 +107,7 @@
     "photos": "",
     "cover": "mae.webp",
     "langages": ["html-1.svg", "css-3.svg"],
-    "description": "J'ai réalisé ce site en imaginant un client ayant un cabinet d'ostéopathie. Sa demande est un site sobre qui expose ses spécialités, sa tarification et son emplacement afin de se faire connaitre . L'utilsateur du site peut prendre rendez-vous sur doctolib grace au lien (fictif renvoit vers la page d'accueil du site)"
+    "description_projet": "J'ai réalisé ce site en imaginant un client ayant un cabinet d'ostéopathie. Sa demande est un site sobre qui expose ses spécialités, sa tarification et son emplacement afin de se faire connaitre . L'utilsateur du site peut prendre rendez-vous sur doctolib grace au lien (fictif renvoit vers la page d'accueil du site)"
   },
   {
     "id": "11",
@@ -118,6 +118,6 @@
     "photos": "",
     "cover": "RidingCities.webp",
     "langages": ["html-1.svg", "css-3.svg"],
-    "description": "Réalisation d'un site pour une photographe profesionnelle afin de donner de la visibilité à son travail et de se faire connaitre"
+    "description_projet": "Réalisation d'un site pour une photographe profesionnelle afin de donner de la visibilité à son travail et de se faire connaitre"
   }
 ]

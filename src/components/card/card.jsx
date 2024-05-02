@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
-import Circle from "../../assets/logo/circle-down.svg"
+import Circle from "../../assets/logo/circle-down.svg";
 
-function Card({ id, title, cover, langages }) {
+function Card({ id, title, cover, langages, showmore }) {
+
   return (
     <>
       <li className="card" key={id}>
@@ -11,7 +11,6 @@ function Card({ id, title, cover, langages }) {
           className="card-img"
         />
         <div className="card-description">
-          <h1 className="card-description_title">{title}</h1>
           {langages && langages.length > 0 && (
             <div className="card-description_langage">
               {langages.map((langage, index) => (
@@ -25,10 +24,10 @@ function Card({ id, title, cover, langages }) {
             </div>
           )}
         </div>
-        <Link to="/" className="card-link">
+        <div onClick={showmore} className="card-link">
           <p className="card-link_name">Découvrir le projet</p>
           <img className="card-link_logo" src={Circle} alt="logo circle" />
-        </Link>
+        </div>
       </li>
     </>
   );

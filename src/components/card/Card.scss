@@ -7,38 +7,41 @@ li {
   height: 415px;
   margin: 0px auto 30px auto;
   position: relative;
-  border: 2px solid #75708e;;
   position: relative;
   .card-img {
-    border-radius: 10px;
     object-fit: cover;
     width: 100%;
     object-position: top;
     height: 415px;
   }
   .card-link {
+    cursor: pointer;
     width: 100%;
     height: 105px;
     position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:10px;
+    gap: 5px;
     top: 75%;
     text-decoration: none;
-        background: rgba(125, 125, 125, 0.376);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: rgba(125, 125, 125, 0.376);
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     .card-link_name {
       padding-top: 20px;
       font-size: 24px;
-      color: white;
-      margin:0;
+      color: black;
+      margin: 0;
     }
     .card-link_logo {
       width: 35px;
-      height: auto;
+      height: 50px;
+      rotate: 90deg;
+      &:hover{
+        scale: 1.2;
+      }
     }
   }
   .card-description {
@@ -46,30 +49,19 @@ li {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    width: 300px;
-    height: 150px;
-    border: 2px solid red;
+    min-width: 50px;
+    height: 25px;
     position: absolute;
-    top: 10%;
+    top: 85%;
     right: 5%;
-    background: rgba(114, 89, 121, 0.172);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    .card-description_title {
-      border: 2px solid blue;
-
-      margin: 0px;
-    }
+    z-index: 999;
     .card-description_langage {
-      border: 2px solid green;
-
       display: flex;
       flex-direction: row;
       gap: 10px;
       .card-description_langage_img {
         width: 50px;
-        height: auto;
+        height: 50px;
       }
     }
   }

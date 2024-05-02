@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import Hamburger from "../hamburger";
+// import Logoname from "../../assets/logo/logo-name.svg";
 import { useState } from "react";
 
 function Header() {
@@ -17,7 +18,7 @@ function Header() {
           <NavLink to="/">Accueil</NavLink>
           <NavLink to="/Projets">Projets</NavLink>
           <NavLink to="/Competences">Compétences</NavLink>
-          <NavLink to="/">Contact</NavLink>
+          <NavLink to="/Contact">Contact</NavLink>
         </div>
       </nav>
     </header>

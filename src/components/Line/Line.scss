@@ -1,0 +1,33 @@
+@import "../../style/Main.scss";
+
+.contact-container {
+  position: relative;
+}
+
+.line {
+  width: 1000px;
+  border: 3px solid black;
+  position: absolute;
+  z-index: -1;
+  transition: width 0.5s ease-in-out;
+}
+.line1:hover {
+  width: 800px;
+  height: 200px;
+}
+.line2:hover {
+  width: 800px;
+  height: 100px;
+}
+.line1 {
+  top: 211px;
+}
+.line2 {
+  top: 278px;
+  right: 0px;
+}
+.line3 {
+  rotate: 90deg;
+  top: 256px;
+  right: -59px;
+}

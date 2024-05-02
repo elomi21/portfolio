@@ -1,36 +1,43 @@
 @import "../../style/Main.scss";
 
 .carousel {
-  padding: 40px 50px;
+  padding: 40px 50px 0px 50px;
+  display: grid;
+  grid-template-columns: 60px 1000px 60px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 .container-carousel {
   max-width: 1000px;
   height: 415px;
-  margin: 0px auto 30px auto;
-  position: relative;
-  padding: 0px 19px;
+}
+.c-sl-al {
+  cursor: pointer;
+  &:hover {
+    scale: 1.2;
+  }
+}
+.c-sl-ar {
+  cursor: pointer;
+  &:hover {
+    scale: 1.2;
+  }
+}
 
-  .c-sl-al {
-    position: absolute;
-    top: 156.7px;
-    left: 46px;
-    z-index: 10;
-  }
-  .c-sl-ar {
-    position: absolute;
-    top: 156.7px;
-    right: 46px;
-    z-index: 10;
-  }
-  .c-sl-counter {
-    max-width: 1000px;
-    height: 100px;
-
-    color: white;
-    text-align: center;
-    font-size: 18px;
-    margin: 0px auto;
-  }
+section {
+  height: 418px;
+}
+.section-description {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-out, opacity 1s ease-out;
+}
+.visible {
+  max-height: 300px;
+  opacity: 1;
+  margin-bottom: 0px;
 }
 @media (min-width: 950px) and (max-width: 451px) {
   .container-carousel {
@@ -62,9 +69,6 @@
       object-fit: cover;
       width: 100%;
       height: 255px;
-    }
-    .c-sl-counter {
-      display: none;
     }
   }
 }

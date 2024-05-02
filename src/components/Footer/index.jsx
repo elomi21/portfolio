@@ -1,4 +1,12 @@
-function Footer() {
-  return <></>;
+
+
+function Header() {
+
+
+  return (
+    <footer>
+
+    </footer>
+  );
 }
-export default Footer;
+export default Header;

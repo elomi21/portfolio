@@ -1,3 +1,6 @@
+import LogoLD from "../../assets/logo/linkedin-icon-1.svg";
+import logogit from "../../assets/logo/github-2.svg";
+import { Link } from "react-router-dom";
 
 function Form() {
   return (
@@ -13,8 +16,18 @@ function Form() {
           Envoyer
         </button>
       </form>
+      <div className="social-media">
+        <Link
+          to="https://www.linkedin.com/in/elodie-mitaut-5606a0306"
+          target="_blank"
+        >
+          <img src={LogoLD} alt="logo lien" />
+        </Link>
+        <Link to="https://github.com/elomi21" target="_blank">
+          <img src={logogit} alt="logo lien" />
+        </Link>
+      </div>
     </section>
-    
   );
 }
 export default Form;
