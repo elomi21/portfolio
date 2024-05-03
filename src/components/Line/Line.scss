@@ -3,13 +3,12 @@
 .contact-container {
   position: relative;
 }
-
 .line {
   width: 1000px;
   border: 3px solid black;
   position: absolute;
-  z-index: -1;
-  transition: width 0.5s ease-in-out;
+  z-index: 0;
+  transition: width 1s ease-in-out;
 }
 .line1:hover {
   width: 800px;
@@ -19,6 +18,9 @@
   width: 800px;
   height: 100px;
 }
+.line3:active {
+  width: 800px;
+}
 .line1 {
   top: 211px;
 }
@@ -27,7 +29,8 @@
   right: 0px;
 }
 .line3 {
+  border-color: grey;
   rotate: 90deg;
-  top: 256px;
+  top: 227px;
   right: -59px;
 }

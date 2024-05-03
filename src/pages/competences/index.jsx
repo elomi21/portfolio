@@ -1,25 +1,32 @@
 import "../../style/Main.scss";
-import Logohtml from "../../assets/logo/html-1.svg";
-import Logocss from "../../assets/logo/css-3.svg";
-import Logosass from "../../assets/logo/sass-1.svg";
-import Logojs from "../../assets/logo/javascript-1.svg";
-import Logoreact from "../../assets/logo/react-2.svg";
-import Logoredux from "../../assets/logo/redux.svg";
+import Logohtml from "../../assets/logoBW/html-bw.svg";
+import Logocss from "../../assets/logoBW/css-bw.svg";
+import Logosass from "../../assets/logoBW/sass-bw.svg";
+import Logojs from "../../assets/logoBW/js-bw.svg";
+import Logoreact from "../../assets/logoBW/react-bw.svg";
+import Logoredux from "../../assets/logoBW/redux-bw.svg";
 
 function Competences() {
   return (
     <>
       <section className="section-competences">
         <div className="langages">
-          <h2>Langages courants</h2>
-          <img src={Logohtml} alt="html" />
-          <img src={Logocss} alt="css" />
-          <img src={Logosass} alt="sass" />
-          <h3>Langage et librairie à perfectionner</h3>
-          <img src={Logojs} alt="javascript" />
-          <img src={Logoreact} alt="react" />
-          <h3>Librairie à appronfondir</h3>
-          <img src={Logoredux} alt="redux" />
+          <div className="langage-front_op">
+            <h2>Opérationnels</h2>
+            <div className="langage-front_op_logo">
+              <img src={Logohtml} alt="html" />
+              <img src={Logocss} alt="css" />
+              <img src={Logosass} alt="sass" />
+            </div>
+          </div>
+          <div className="langage-front_ap">
+            <h2>Langage et librairies à perfectionner</h2>
+            <div className="langage-front_ap_logo">
+              <img src={Logojs} alt="javascript" />
+              <img src={Logoreact} alt="react" />
+              <img src={Logoredux} alt="redux" />
+            </div>
+          </div>
         </div>
         <div className="autres">
           <h2>Notions</h2>
