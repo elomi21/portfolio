@@ -1,5 +1,5 @@
 import Github from "../../assets/logo/github-2.svg";
-import LinkGitpages from "../../assets/logo/linkgit.svg";
+import LinkGitpages from "../../assets/logo/link.svg";
 import { Link } from "react-router-dom";
 
 function Description({

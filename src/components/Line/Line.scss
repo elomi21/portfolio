@@ -4,22 +4,19 @@
   position: relative;
 }
 .line {
-  width: 1000px;
+  width: 75%;
   border: 3px solid black;
   position: absolute;
   z-index: 0;
   transition: width 1s ease-in-out;
 }
 .line1:hover {
-  width: 800px;
+  width: 90%;
   height: 200px;
 }
 .line2:hover {
-  width: 800px;
-  height: 100px;
-}
-.line3:active {
-  width: 800px;
+  width: 90%;
+  height: 200px;
 }
 .line1 {
   top: 211px;
@@ -29,8 +26,48 @@
   right: 0px;
 }
 .line3 {
-  border-color: grey;
+  border-color: rgba(183, 139, 140, 0.8);
   rotate: 90deg;
-  top: 227px;
-  right: -59px;
+  top: 10%;
+  right: -50px;
+  z-index: -999;
+}
+
+@media (max-width: 950px) and (min-width: 451px) {
+  .line {
+    width: 67%;
+    border: 3px solid black;
+    position: absolute;
+    z-index: 0;
+    transition: width 1s ease-in-out;
+  }
+  .line1:hover {
+    width: 40%;
+    height: 500px;
+  }
+  .line2:hover {
+    width: 18%;
+    height: 200px;
+  }
+  .line3:active {
+    width: 10%;
+  }
+  .line1 {
+    top: 211px;
+  }
+  .line2 {
+    top: 400px;
+    right: 0px;
+  }
+  .line3 {
+    border-color: rgba(183, 139, 140, 0.8);
+    top: 0px;
+    right: -30px;
+    z-index: -999;
+  }
+}
+@media (max-width: 450px) {
+  .line {
+    display: none;
+  }
 }

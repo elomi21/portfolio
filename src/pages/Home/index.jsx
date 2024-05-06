@@ -1,11 +1,11 @@
 import Banner from "../../components/Banner/index";
-
+import Line from "../../components/Line/index";
 function Home() {
   return (
     <>
       <main>
-          <Banner />
-          
+        <Line />
+        <Banner />
       </main>
     </>
   );

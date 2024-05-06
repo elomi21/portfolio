@@ -5,7 +5,6 @@ function Header() {
 
   return (
     <footer>
-
     </footer>
   );
 }

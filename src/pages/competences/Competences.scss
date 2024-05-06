@@ -3,45 +3,27 @@
 .section-competences {
   width: 80%;
   height: auto;
-  margin: 40px auto 120px auto;
+  margin: 0px auto 120px auto;
   padding: 40px 50px;
-  background: rgba(222, 222, 222, 0.423);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
   position: relative;
-
   h2 {
     font-size: 24px;
   }
-
-  img {
+  .logo-lan-size {
     width: 50px;
     height: 70px;
   }
   .langages {
     display: flex;
     flex-direction: column;
-    background: rgba(0, 0, 0, 0.16);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+    background: rgba(112, 109, 113, 0.172);
     color: white;
-    .langage-front_op {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      .langage-front_op_logo {
-        display: flex;
-        flex-direction: row;
-        gap: 100px;
-        padding-bottom: 20px;
-      }
-    }
+    .langage-front_op,
     .langage-front_ap {
       display: flex;
       flex-direction: column;
       align-items: center;
+      .langage-front_op_logo,
       .langage-front_ap_logo {
         display: flex;
         flex-direction: row;
@@ -51,6 +33,65 @@
     }
   }
 }
-.autres{
+.c-d {
+  &-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    h3 {
+      color: rgba(183, 139, 140, 0.8);
+    }
+    &_agile {
+      display: flex;
+      align-items: center;
+    }
+  }
 }
+.container-agile {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+ .logo-comp-size{
+      width: 50px;
+      height: auto;
+    }
+  .logo-comp-size-small{
+    width: 30px;
+  }
 
+@media (max-width: 950px) and (min-width: 451px) {
+}
+@media (max-width: 450px) {
+  .section-competences {
+    padding: 40px 30px;
+     h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+    .logo-lan-size {
+      width: 50px;
+      height: 70px;
+    }
+    .langages {
+      .langage-front_op,
+      .langage-front_ap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .langage-front_op_logo,
+        .langage-front_ap_logo {
+          display: flex;
+          flex-direction: row;
+          gap: 40px;
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+  .container-agile {
+  flex-direction: column;
+}
+}

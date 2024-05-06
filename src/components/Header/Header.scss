@@ -8,8 +8,8 @@ nav {
   justify-content: center;
   z-index: 999;
 }
-img{
-  width:70px;
+img {
+  width: 70px;
   height: 90px;
 }
 .nav-link {
@@ -48,7 +48,7 @@ img{
     transition: none;
     gap: 10px;
     cursor: pointer;
-    background-color: #75708E;
+    background-color: #75708e;
     opacity: 0.7;
 
     &.expanded {
@@ -64,7 +64,7 @@ img{
       a {
         padding-left: 20px;
         font-size: 16px;
-        color:black;
+        color: black;
       }
     }
     .nav-link-visibility {
