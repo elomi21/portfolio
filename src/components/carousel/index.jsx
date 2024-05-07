@@ -58,7 +58,7 @@ function Carousel() {
           alt="arrow_rigth"
         />
       </section>
-      <section>
+      <section className="sec-description">
         <div
           className={`section-description ${showDescription ? "visible" : ""}`}
         >

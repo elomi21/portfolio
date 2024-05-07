@@ -1,5 +1,6 @@
 import Banner from "../../components/Banner/index";
 import Line from "../../components/Line/index";
+import "../../style/Main.scss";
 function Home() {
   return (
     <>

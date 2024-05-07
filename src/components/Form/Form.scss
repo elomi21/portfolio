@@ -18,7 +18,6 @@
     flex-direction: column;
     gap: 20px;
     width: 40%;
-    
 
     label {
       font-size: 18px;
@@ -76,6 +75,8 @@
 }
 @media (max-width: 450px) {
   .section-form {
+    flex-direction: column;
+    gap: 20px;
     width: 65%;
     &_form {
       padding: 10px 5px;

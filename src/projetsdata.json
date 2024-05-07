@@ -4,8 +4,7 @@
     "title": "Riding Cities",
     "lien": "https://elomi21.github.io/Riding_cities/",
     "repository": "https://github.com/elomi21/Riding_cities.git",
-    "type_projet": "Projet réalisé dans le cadre de ma formation",
-    "photos": "",
+    "type_projet": "Projet fictif réalisé dans le cadre de ma formation",
     "cover": "RidingCities.webp",
     "langages": ["html-1.svg", "css-3.svg"],
     "description_projet": "Pour un stage en tant que développeur junior, on m'a confié la mission de mettre à jour de la page Internet de Riding Cities, une association sportive qui promeut le skate en région. À l'aide de la maquette qui m'a été fournit, j'ai pu éffectué les changements afin de répondre au besoin de notre client."
@@ -15,8 +14,7 @@
     "title": "Booki",
     "lien": "https://elomi21.github.io/booki/",
     "repository": "https://github.com/elomi21/booki.git",
-    "type_projet": "Projet réalisé dans le cadre de ma formation",
-    "photos": "",
+    "type_projet": "Projet fictif réalisé dans le cadre de ma formation",
     "cover": "booki.webp",
     "langages": ["html-1.svg", "css-3.svg"],
     "description_projet": "En tant qu'alternante développeuse web, au sein de la start-up Booki. J’ai été chargée d'intégrer l'interface responsive du site, avec du code HTML et CSS. Pour mener à bien cette mission, j'avais à ma disposition les maquettes Figma pour mobile, tablette et desktop."
@@ -26,8 +24,7 @@
     "title": "OhMyFood",
     "lien": "https://elomi21.github.io/ohmyfood/",
     "repository": "https://github.com/elomi21/ohmyfood.git",
-    "type_projet": "Projet réalisé dans le cadre de ma formation",
-    "photos": "",
+    "type_projet": "Projet fictif réalisé dans le cadre de ma formation",
     "cover": "ohmyfood.webp",
     "langages": ["html-1.svg", "sass-1.svg"],
     "description_projet": "En tant que développeuse junior, j'ai intégré Ohmyfood. Il s’agit d’une jeune start-up qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. Ma mission est de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée."
@@ -37,8 +34,7 @@
     "title": "Print-it",
     "lien": "https://elomi21.github.io/Print-it-JS-main/",
     "repository": "https://github.com/elomi21/Print-it-JS-main.git",
-    "type_projet": "Projet réalisé dans le cadre de ma formation",
-    "photos": "",
+    "type_projet": "Projet fictif réalisé dans le cadre de ma formation",
     "cover": "print.webp",
     "langages": ["html-1.svg", "javascript-1.svg", "sass-1.svg"],
     "description_projet": "Je débute comme développeuse front-end en freelance, et je viens de décrocher une offre pour dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it. On me demande de réaliser un carousel."
@@ -48,19 +44,17 @@
     "title": "Sophie Bluel",
     "lien": "",
     "repository": "https://github.com/elomi21/Portfolio-architecte-sophie-bluel-master.git",
-    "type_projet": "Projet réalisé dans le cadre de ma formation",
-    "photos": "",
+    "type_projet": "Projet fictif réalisé dans le cadre de ma formation",
     "cover": "Sophie.webp",
     "langages": ["html-1.svg", "javascript-1.svg", "css-3.svg"],
-    "description_projet": "Je travaille comme développeuse front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé vmon dernier projet avec un peu d'avance, je suis envoyée en renfort comme développeuse front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.Vous devez donc développer :la page de présentation des travaux de l'architecte (à partir du HTML fourni) ;la page de connexion de l'administrateur du site (le client) (code à créer de zéro) ;la modale permettant d'uploader de nouveaux médias (code à créer from scratch)."
+    "description_projet": "Je travaille comme développeuse front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé mon dernier projet avec un peu d'avance, je suis envoyée en renfort comme développeuse front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.Je dois donc développer :la page de présentation des travaux de l'architecte (à partir du HTML fourni) ;la page de connexion de l'administrateur du site (le client) (code à créer de zéro) ;la modale permettant d'uploader de nouveaux médias (code à créer from scratch)."
   },
   {
     "id": "6",
     "title": "Kasa",
     "lien": "",
     "repository": "https://github.com/elomi21/kasa.git",
-    "type_projet": "Projet réalisé dans le cadre de ma formation",
-    "photos": "",
+    "type_projet": "Projet fictif réalisé dans le cadre de ma formation",
     "cover": "kasa.webp",
     "langages": ["html-1.svg", "react-2.svg", "sass-1.svg"],
     "description_projet": ""
@@ -70,33 +64,30 @@
     "title": "Nina Carducci",
     "lien": "https://elomi21.github.io/ninacarducci_photographie/",
     "repository": "https://github.com/elomi21/ninacarducci_photographie.git",
-    "type_projet": "Projet réalisé dans le cadre de ma formation",
-    "photos": "",
+    "type_projet": "Projet fictif réalisé dans le cadre de ma formation",
     "cover": "nina1.webp",
     "langages": ["html-1.svg", "css-3.svg"],
-    "description_projet": ""
+    "description_projet": "Je suis développeuse freelance et j'ai décidé de proposer mes services d’optimisation SEO à Nina Carducci, une photographe professionnelle. Pour mener à bien cette mission, j'ai optimisé les images du site : des images trop lourdes rendent la page très longue à charger et j'ai optimisé le code, sa structure afin d’améliorer le chargement et l’accessibilité du site. J'ai mis en place le référencement local en utilisant Schema.org et ajouté les metas pour les réseaux sociaux."
   },
   {
     "id": "8",
     "title": "724 events",
     "lien": "",
     "repository": "https://github.com/elomi21/Debuggez-une-application-React.JS-main.git",
-    "type_projet": "Projet réalisé dans le cadre de ma formation",
-    "photos": "",
+    "type_projet": "Projet fictif réalisé dans le cadre de ma formation",
     "cover": "724events.webp",
     "langages": ["html-1.svg", "react-2.svg", "sass-1.svg"],
-    "description_projet": ""
+    "description_projet": "Je suis développeuse front-end freelance, et l’agence évènementielle 724events me contacte pour une mission.   L’agence souhaite publier la nouvelle version de son site vitrine. Il s’agit d’un site one-page. Le design a été validé, et un premier développeur freelance a commencé l’intégration il y a quelques semaines. Ce freelance a dû abandonner le projet pour raisons personnelles. Le site est fonctionnel, mais quelques bugs entravent le bon usage par les visiteurs. 724events fait donc appel à vous pour finaliser le travail. J'ai modifié le code, en fonction des bugs repérés(grace en partie à Chrome DevTools), afin qu'il réponde au besoin du client."
   },
   {
     "id": "9",
     "title": "Argent Bank",
     "lien": "",
     "repository": "https://github.com/elomi21/argentbank.git",
-    "type_projet": "Projet réalisé dans le cadre de ma formation",
-    "photos": "",
+    "type_projet": "Projet fictif réalisé dans le cadre de ma formation",
     "cover": "argentbank.webp",
     "langages": ["html-1.svg", "react-2.svg", "sass-1.svg"],
-    "description_projet": ""
+    "description_projet": "J'ai utilisé React et Redux pour développer l'interface utilisateur de l'application bancaire ArgentBank, en me concentrant sur la création d'un tableau de bord complet et responsive pour les utilisateurs. L'utilisateur peut, lorsqu'il est connecté, modifié son pseudo et avoir accés à ses comptes. "
   },
   {
     "id": "10",
@@ -104,7 +95,6 @@
     "lien": "https://elomi21.github.io/MaeOsteo/",
     "repository": "https://github.com/elomi21/MaeOsteo.git",
     "type_projet": "Projet personnel",
-    "photos": "",
     "cover": "mae.webp",
     "langages": ["html-1.svg", "css-3.svg"],
     "description_projet": "J'ai réalisé ce site en imaginant un client ayant un cabinet d'ostéopathie. Sa demande est un site sobre qui expose ses spécialités, sa tarification et son emplacement afin de se faire connaitre . L'utilsateur du site peut prendre rendez-vous sur doctolib grace au lien (fictif renvoit vers la page d'accueil du site)"
@@ -115,9 +105,8 @@
     "lien": "https://elomi21.github.io/Robbie/",
     "repository": "https://github.com/elomi21/Robbie.git",
     "type_projet": "Projet personnel realisé en suivant des cours libres sur les langages html et css",
-    "photos": "",
-    "cover": "RidingCities.webp",
+    "cover": "robbie.webp",
     "langages": ["html-1.svg", "css-3.svg"],
-    "description_projet": "Réalisation d'un site pour une photographe profesionnelle afin de donner de la visibilité à son travail et de se faire connaitre"
+    "description_projet": "Réalisation d'un site pour une photographe profesionnelle afin de donner de la visibilité à son travail et de se faire connaitre."
   }
 ]

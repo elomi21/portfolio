@@ -1,7 +1,11 @@
 @import "../../style/Main.scss";
 
 footer{
-    height: 100px;
+    height:80px;
     background-color: black;
-    position: static;
+    color: rgba(183, 139, 140, 0.8);
+    .f-name{
+        text-align: center;
+        padding: 20px;
+    }
 }

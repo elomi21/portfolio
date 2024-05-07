@@ -39,7 +39,7 @@ li {
       width: 35px;
       height: 50px;
       rotate: 90deg;
-      &:hover{
+      &:hover {
         scale: 1.2;
       }
     }
@@ -62,6 +62,40 @@ li {
       .card-description_langage_img {
         width: 50px;
         height: 50px;
+      }
+    }
+  }
+}
+@media (max-width: 950px) and (max-width: 451px) {
+   .card {
+    .card-description {
+      top: 90%;
+      right: 5%;
+      .card-description_langage {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        .card-description_langage_img {
+          width: 30px;
+          height: 30px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+  .card {
+    .card-description {
+      top: 90%;
+      right: 5%;
+      .card-description_langage {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        .card-description_langage_img {
+          width: 30px;
+          height: 30px;
+        }
       }
     }
   }
