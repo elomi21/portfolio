@@ -1,11 +1,13 @@
-import Form from "../../components/Form";
+// import Form from "../../components/Form";
+import Mail from "../../components/Mail";
 import Line from "../../components/Line";
 
 function Contact() {
   return (
     <main>
       <Line />
-      <Form />
+      {/* <Form /> */}
+      <Mail />
     </main>
   );
 }

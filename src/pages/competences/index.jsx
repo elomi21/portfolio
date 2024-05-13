@@ -52,6 +52,12 @@ function Competences() {
             />
             <h3>Figma</h3>
           </div>
+          <div className="container-seo">
+            <div className="c-d-content">
+              <img className="logo-comp-size" src={Logoseo} alt="logo seo" />
+              <h3>Référencement</h3>
+            </div>
+          </div>
           <div className="container-agile">
             <div className="c-d-content">
               <img
@@ -78,12 +84,6 @@ function Competences() {
                   alt="logo lien vers projet"
                 />
               </Link>
-            </div>
-          </div>
-          <div className="container-seo">
-            <div className="c-d-content">
-              <img className="logo-comp-size" src={Logoseo} alt="logo seo" />
-              <h3>Référencement</h3>
             </div>
           </div>
         </div>

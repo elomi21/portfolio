@@ -1,0 +1,36 @@
+@import "../../style/Main.scss";
+
+.section-mail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  margin: auto;
+  padding: 60px 50px 50px 50px;
+  background: rgba(112, 109, 113, 0.172);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  h2 {
+    text-align: center;
+  }
+  .social-media {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+@media (max-width: 950px) and (min-width: 451px) {
+  .section-mail {
+    padding: 60px 25px 50px 25px;
+    width: 85%;
+  }
+}
+@media (max-width: 450px) {
+  .section-mail {
+    gap: 20px;
+    margin: 40px auto;
+    width: 65%;
+  }
+}
