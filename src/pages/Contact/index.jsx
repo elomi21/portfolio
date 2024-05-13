@@ -1,6 +1,6 @@
-// import Form from "../../components/Form";
-import Mail from "../../components/Mail";
-import Line from "../../components/Line";
+// import Form from "../../components/form";
+import Mail from "../../components/mail";
+import Line from "../../components/line";
 
 function Contact() {
   return (
