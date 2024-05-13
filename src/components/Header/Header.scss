@@ -46,7 +46,7 @@ img {
     transition: none;
     gap: 10px;
     cursor: pointer;
-    background-color: #75708e;
+    background-color: black;
     opacity: 0.7;
 
     &.expanded {
@@ -60,7 +60,7 @@ img {
       a {
         padding-left: 20px;
         font-size: 16px;
-        color: black;
+        color: white;
       }
     }
     .nav-link-visibility {

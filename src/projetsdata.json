@@ -36,7 +36,7 @@
     "repository": "https://github.com/elomi21/Print-it-JS-main.git",
     "type_projet": "Projet fictif réalisé dans le cadre de ma formation",
     "cover": "print.webp",
-    "langages": ["html-1.svg", "javascript-1.svg", "sass-1.svg"],
+    "langages": ["html-1.svg", "sass-1.svg", "javascript-1.svg"],
     "description_projet": "Je débute comme développeuse front-end en freelance, et je viens de décrocher une offre pour dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it. On me demande de réaliser un carousel."
   },
   {
@@ -46,7 +46,7 @@
     "repository": "https://github.com/elomi21/Portfolio-architecte-sophie-bluel-master.git",
     "type_projet": "Projet fictif réalisé dans le cadre de ma formation",
     "cover": "Sophie.webp",
-    "langages": ["html-1.svg", "javascript-1.svg", "css-3.svg"],
+    "langages": ["html-1.svg", "css-3.svg", "javascript-1.svg"],
     "description_projet": "Je travaille comme développeuse front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé mon dernier projet avec un peu d'avance, je suis envoyée en renfort comme développeuse front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.Je dois donc développer :la page de présentation des travaux de l'architecte (à partir du HTML fourni) ;la page de connexion de l'administrateur du site (le client) (code à créer de zéro) ;la modale permettant d'uploader de nouveaux médias (code à créer from scratch)."
   },
   {
@@ -56,7 +56,7 @@
     "repository": "https://github.com/elomi21/kasa.git",
     "type_projet": "Projet fictif réalisé dans le cadre de ma formation",
     "cover": "kasa.webp",
-    "langages": ["html-1.svg", "react-2.svg", "sass-1.svg"],
+    "langages": ["react-2.svg", "sass-1.svg"],
     "description_projet": ""
   },
   {
@@ -86,7 +86,7 @@
     "repository": "https://github.com/elomi21/argentbank.git",
     "type_projet": "Projet fictif réalisé dans le cadre de ma formation",
     "cover": "argentbank.webp",
-    "langages": ["html-1.svg", "react-2.svg", "sass-1.svg"],
+    "langages": ["sass-1.svg", "react-2.svg", "redux.svg"],
     "description_projet": "J'ai utilisé React et Redux pour développer l'interface utilisateur de l'application bancaire ArgentBank, en me concentrant sur la création d'un tableau de bord complet et responsive pour les utilisateurs. L'utilisateur peut, lorsqu'il est connecté, modifié son pseudo et avoir accés à ses comptes. "
   },
   {
