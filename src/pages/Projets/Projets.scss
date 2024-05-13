@@ -7,14 +7,24 @@
 }
 .line5,
 .line6 {
-  width: 19%;
+  width: 10%;
   top: 70%;
 }
 .line6 {
   right: 0%;
 }
+@media (max-width: 950px) and (min-width: 451px) {
+  .line5,
+  .line6 {
+    width: 8%;
+    top: 70%;
+  }
+  .line6 {
+    right: 0%;
+  }
+}
 @media (max-width: 450px) {
-  .linepro{
+  .linepro {
     display: none;
   }
 }

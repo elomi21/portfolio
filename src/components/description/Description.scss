@@ -5,8 +5,7 @@
   height: 280px;
   margin: 0px auto 50px auto;
   padding: 20px 15px;
-  display: flex;
-  flex-direction: row;
+  @include f-r;
   justify-content: space-between;
   background-color: white;
 
@@ -30,7 +29,7 @@
 }
 @media (max-width: 950px) and (min-width: 451px) {
   .description {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
   }
 }
@@ -40,8 +39,7 @@
     height: 400px;
     margin: 140px auto 50px auto;
     padding: 20px 20px;
-    display: flex;
-    flex-direction: row;
+    @include f-r;
     justify-content: space-between;
     .description-type {
       width: 100%;
@@ -52,8 +50,7 @@
       }
     }
     .description-link {
-      display: flex;
-      flex-direction: column;
+      @include f-c;
       align-items: flex-end;
       gap: 10px;
       width: 80px;

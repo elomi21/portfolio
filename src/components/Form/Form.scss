@@ -1,21 +1,16 @@
 @import "../../style/Main.scss";
 
 .section-form {
-  display: flex;
-  flex-direction: row;
+  @include f-r;
   justify-content: space-between;
   width: 50%;
   height: auto;
   margin: auto;
   padding: 60px 50px 50px 50px;
-  background: rgba(112, 109, 113, 0.172);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  @include glass-effect;
 
   &_form {
-    display: flex;
-    flex-direction: column;
+    @include f-c;
     gap: 20px;
     width: 40%;
 
@@ -50,8 +45,7 @@
     }
   }
   .social-media {
-    display: flex;
-    flex-direction: row;
+    @include f-r;
     gap: 10px;
   }
 }
@@ -60,8 +54,7 @@
     padding: 60px 25px 50px 25px;
     width: 85%;
     &_form {
-      display: flex;
-      flex-direction: column;
+      @include f-c;
       gap: 20px;
       width: 60%;
       input[type="email"] {
@@ -81,8 +74,7 @@
     width: 65%;
     &_form {
       padding: 10px 5px;
-      display: flex;
-      flex-direction: column;
+      @include f-c;
       gap: 10px;
       width: 100%;
     }

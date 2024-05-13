@@ -13,6 +13,25 @@ main {
   flex-grow: 1;
 }
 
+@mixin f-r {
+  display: flex;
+  flex-direction: row;
+}
+@mixin f-c {
+  display: flex;
+  flex-direction: column;
+}
+@mixin f-cr-center {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+@mixin glass-effect {
+  background: rgba(112, 109, 113, 0.172);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
 @media (min-width: 450px) {
   main {
     margin-top: 40px;

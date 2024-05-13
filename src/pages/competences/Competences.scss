@@ -14,29 +14,24 @@
     height: 70px;
   }
   .langages {
-    display: flex;
-    flex-direction: column;
+    @include f-c;
     background: rgba(112, 109, 113, 0.172);
     color: white;
     .langage-front_op,
     .langage-front_ap {
-      display: flex;
-      flex-direction: column;
+      @include f-c;
       align-items: center;
       .langage-front_op_logo,
       .langage-front_ap_logo {
-        display: flex;
-        flex-direction: row;
+        @include f-r;
         gap: 100px;
-        padding-bottom: 20px;
       }
     }
   }
 }
 .c-d {
   &-content {
-    display: flex;
-    flex-direction: row;
+    @include f-r;
     align-items: center;
     justify-content: flex-start;
     gap: 10px;
@@ -51,8 +46,7 @@
   }
 }
 .container-agile {
-  display: flex;
-  flex-direction: row;
+  @include f-r;
   gap: 10px;
 }
 .logo-comp-size {
@@ -79,13 +73,11 @@
     .langages {
       .langage-front_op,
       .langage-front_ap {
-        display: flex;
-        flex-direction: column;
+        @include f-c;
         align-items: center;
         .langage-front_op_logo,
         .langage-front_ap_logo {
-          display: flex;
-          flex-direction: row;
+          @include f-r;
           gap: 40px;
           padding-bottom: 20px;
         }

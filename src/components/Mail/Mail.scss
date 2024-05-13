@@ -1,23 +1,18 @@
 @import "../../style/Main.scss";
 
 .section-mail {
-  display: flex;
-  flex-direction: column;
+  @include f-c;
   align-items: center;
   width: 50%;
   height: auto;
   margin: auto;
   padding: 60px 50px 50px 50px;
-  background: rgba(112, 109, 113, 0.172);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  @include glass-effect;
   h2 {
     text-align: center;
   }
   .social-media {
-    display: flex;
-    flex-direction: row;
+    @include f-r;
     gap: 20px;
   }
 }

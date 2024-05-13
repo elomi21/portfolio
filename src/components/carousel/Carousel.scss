@@ -1,26 +1,21 @@
 @import "../../style/Main.scss";
 
 .carousel {
-  padding: 40px 50px 0px 50px;
-  display: flex;
+  padding-top: 40px;
+  @include f-r;
   gap: 20px;
   align-items: center;
   justify-items: center;
-  flex-direction: row;
   margin: 0 auto auto auto;
   justify-content: center;
+  max-width: 100%;
 }
 .container-carousel {
   width: 1000px;
   height: 415px;
 }
-.c-sl-al {
-  cursor: pointer;
-  &:hover {
-    scale: 1.2;
-  }
-}
-.c-sl-ar {
+.c-sl-al, 
+.c-sl-ar{
   cursor: pointer;
   &:hover {
     scale: 1.2;
@@ -41,14 +36,19 @@
   opacity: 1;
   margin-bottom: 0px;
 }
-@media (max-width: 950px) and (max-width: 451px) {
+@media (max-width: 950px) and (min-width: 451px) {
   .carousel {
-     padding: 40px 30px 0px 30px;
+    padding: 40px 15px 0px 15px;
+    max-width: 96%;
   }
   .container-carousel {
-    max-width: 100%;
-    margin: 0px 30px 30px 30px;
+    margin-bottom: 30px;
   }
+  .c-sl-al,
+  .c-sl-ar {
+    width: 50px;
+  }
+
   .sec-description {
     height: 418px;
     padding: 0px;
@@ -75,7 +75,7 @@
   .c-sl-al {
     position: absolute;
     width: 50px;
-    bottom: -3%;
+    bottom: 91%;
     left: 5%;
     z-index: 1;
     &:hover {
@@ -85,7 +85,7 @@
   .c-sl-ar {
     position: absolute;
     width: 50px;
-    top: -3%;
+    top: -23%;
     right: 5%;
     &:hover {
       scale: none;
