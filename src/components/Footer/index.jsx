@@ -2,7 +2,7 @@
 function Header() {
   return (
     <footer>
-      <div className="f-name">Mitaut Elodie</div>
+      <div className="f-name">© 2024 Mitaut Elodie</div>
     </footer>
   );
 }

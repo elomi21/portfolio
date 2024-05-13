@@ -7,7 +7,7 @@
   align-items: center;
   justify-items: center;
   flex-direction: row;
-  margin: 0px auto;
+  margin: 0 auto auto auto;
   justify-content: center;
 }
 .container-carousel {
@@ -27,7 +27,7 @@
   }
 }
 .sec-description {
-  height: 418px;
+  height: 300px;
   padding: 0px 139px;
 }
 .section-description {
@@ -37,7 +37,7 @@
   transition: max-height 1s ease-out, opacity 1s ease-out;
 }
 .visible {
-  max-height: 400px;
+  max-height: 300px;
   opacity: 1;
   margin-bottom: 0px;
 }
@@ -54,19 +54,20 @@
     padding: 0px;
   }
   .visible {
-    max-height: 600px;
+    max-height: 300px;
     opacity: 1;
     margin-bottom: 0px;
   }
 }
 @media (max-width: 450px) {
   .carousel {
-    padding: 80px 0px 0px 0px;
+    margin-top: 40px;
+    padding: 0px;
     display: flex;
     position: relative;
   }
   .container-carousel {
-    max-width: 100%;
+    width: 100%;
     height: 255px;
     margin: 0 auto 19px auto;
     padding: 0px 19px;
@@ -74,8 +75,9 @@
   .c-sl-al {
     position: absolute;
     width: 50px;
-    top: -2%;
+    bottom: -3%;
     left: 5%;
+    z-index: 1;
     &:hover {
       scale: none;
     }
@@ -83,7 +85,7 @@
   .c-sl-ar {
     position: absolute;
     width: 50px;
-    top: -2%;
+    top: -3%;
     right: 5%;
     &:hover {
       scale: none;

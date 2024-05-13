@@ -9,6 +9,7 @@ import Logoswagger from "../../assets/logoBW/swagger-bw.svg";
 import Logoagile from "../../assets/logo/agility.svg";
 import Logoseo from "../../assets/logo/seo.svg";
 import Linkprojet from "../../assets/logo/link.svg";
+import Logofigma from "../../assets/logo/figma.svg";
 import { Link } from "react-router-dom";
 
 function Competences() {
@@ -43,6 +44,14 @@ function Competences() {
             />
             <h3>Swagger</h3>
           </div>
+          <div className="c-d-content">
+            <img
+              className="logo-comp-size"
+              src={Logofigma}
+              alt="logo swagger"
+            />
+            <h3>Figma</h3>
+          </div>
           <div className="container-agile">
             <div className="c-d-content">
               <img
@@ -50,6 +59,8 @@ function Competences() {
                 src={Logoagile}
                 alt="logo agile"
               />
+            </div>
+            <div className="container-agile">
               <h3>Méthode Agile</h3>
             </div>
             <div className="c-d-content_agile">

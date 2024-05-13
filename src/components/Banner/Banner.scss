@@ -2,9 +2,7 @@
 
 .s-b {
   max-width: 1200px;
-  height: auto;
-  margin: 0px auto 120px auto;
-  padding: 40px 50px;
+  margin: auto;
   .s-b-c-ti {
     display: flex;
     flex-direction: row;
@@ -71,6 +69,7 @@
 }
 @media (max-width: 450px) {
    .s-b {
+     margin: 40px auto;
     .s-b-c-ti {
       flex-direction: column-reverse;
       align-items: center;
@@ -78,7 +77,7 @@
         width: 80%;
       }
       &_t_titre {
-        font-size: 45px;
+        font-size: 40px;
         margin-bottom: 10px;
       }
       &_t_sous-titre {

@@ -3,7 +3,9 @@ import Carousel from "../../components/carousel";
 function Projets() {
   return (
     <>
-        <Carousel />
+      <Carousel />
+      <div className="linepro line5"></div>
+      <div className="linepro line6"></div>
     </>
   );
 }

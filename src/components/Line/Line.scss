@@ -8,7 +8,8 @@
   border: 3px solid black;
   position: absolute;
   z-index: 0;
-  transition: width 1s ease-in-out;
+  height: 0px;
+  transition: width 1s ease-in-out, height 1s ease-in-out;
 }
 .line1:hover {
   width: 90%;
@@ -39,7 +40,7 @@
     border: 3px solid black;
     position: absolute;
     z-index: 0;
-    transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out, height 1s ease-in-out;
   }
   .line1:hover {
     width: 40%;

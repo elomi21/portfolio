@@ -3,20 +3,20 @@ import LogoLD from "../../assets/logo/linkedin-icon-1.svg";
 import logogit from "../../assets/logo/github-2.svg";
 import { Link } from "react-router-dom";
 function Banner() {
-
   return (
     <section className="s-b">
       <div className="s-b-c-ti">
         <div className="s-b-c-ti_t">
           <h1 className="s-b-c-ti_t_titre">
-            Bonjour, <br/>moi c'est <span>Elodie</span>
+            Bonjour, <br />
+            moi c'est <span>Elodie</span>
           </h1>
           <h2 className="s-b-c-ti_t_sous-titre">
-            Je suis intégratrice web junior
+            Je suis developpeuse web junior
           </h2>
           <p>
-            Je me spécialise dans l'intégration de maquette et la réalisation de
-            site vitrine.
+            Je suis spécialisée dans l'intégration de maquette et la réalisation de
+            site web.
           </p>
           <p>Je porte un fort intéret pour le web design.</p>
           <div className="s-b-c-ti_t_social-media">
