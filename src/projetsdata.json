@@ -57,7 +57,7 @@
     "type_projet": "Projet fictif réalisé dans le cadre de ma formation",
     "cover": "kasa.webp",
     "langages": ["react-2.svg", "sass-1.svg"],
-    "description_projet": ""
+    "description_projet": "Je suis développeuse front-end en freelance pour Kasa, une entreprise de location d’appartements entre particuliers. Ma mission est de développer l’ensemble de l’application, les composants React, les routes React Router en suivant la nouvelle maquette que le designer m'a fournit."
   },
   {
     "id": "7",
@@ -107,6 +107,6 @@
     "type_projet": "Projet personnel realisé en suivant des cours libres sur les langages html et css",
     "cover": "robbie.webp",
     "langages": ["html-1.svg", "css-3.svg"],
-    "description_projet": "Réalisation d'un site pour une photographe profesionnelle afin de donner de la visibilité à son travail et de se faire connaitre."
+    "description_projet": "Réalisation d'un site pour une photographe profesionnelle afin de donner de la visibilité à son travail et se faire connaitre."
   }
 ]
