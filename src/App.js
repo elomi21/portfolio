@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./style/index.scss";
-import Home from "./pages/Home/index";
-import Header from "./components/Header/index";
-import Footer from "./components/Footer/index";
-import Competences from "./pages/Competences/index";
-import Projets from "./pages/Projets/index";
-import Contact from "./pages/Contact/index";
+import Home from "./pages/Home";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Competences from "./pages/Competences";
+import Projets from "./pages/Projets";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (
