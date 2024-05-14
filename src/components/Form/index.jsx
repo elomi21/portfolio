@@ -21,10 +21,10 @@ function Form() {
           to="https://www.linkedin.com/in/elodie-mitaut-5606a0306"
           target="_blank"
         >
-          <img src={LogoLD} alt="logo lien" />
+          <img src={LogoLD} alt="logo lien linkedin" />
         </Link>
         <Link to="https://github.com/elomi21" target="_blank">
-          <img src={logogit} alt="logo lien" />
+          <img src={logogit} alt="logo lien github" />
         </Link>
       </div>
     </section>

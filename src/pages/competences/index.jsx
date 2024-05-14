@@ -48,7 +48,7 @@ function Competences() {
             <img
               className="logo-comp-size"
               src={Logofigma}
-              alt="logo swagger"
+              alt="logo figma"
             />
             <h3>Figma</h3>
           </div>
@@ -81,7 +81,7 @@ function Competences() {
                 <img
                   className="logo-comp-size-small"
                   src={Linkprojet}
-                  alt="logo lien vers projet"
+                  alt="logo lien vers projet pdf"
                 />
               </Link>
             </div>

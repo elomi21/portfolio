@@ -25,7 +25,7 @@ function Card({ id, title, cover, langages, showmore }) {
           )}
         </div>
         <div onClick={showmore} className="card-link">
-          <p className="card-link_name">Découvrir le projet</p>
+          <h1 className="card-link_name">Découvrir le projet</h1>
           <img className="card-link_logo" src={Circle} alt="logo circle" />
         </div>
       </li>
