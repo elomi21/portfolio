@@ -27,7 +27,7 @@
     "type_projet": "Projet fictif réalisé dans le cadre de ma formation",
     "cover": "ohmyfood.webp",
     "langages": ["html-1.svg", "sass-1.svg"],
-    "description_projet": "En tant que développeuse junior, j'ai intégré Ohmyfood. Il s’agit d’une jeune start-up qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. Ma mission est de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée."
+    "description_projet": "En tant que développeuse junior, j'ai intégré Ohmyfood. Il s’agit d’une jeune start-up qui voudrait s'imposer sur le marché de la restauration. Ma mission est de développer un site “mobile first” qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée."
   },
   {
     "id": "4",
@@ -37,7 +37,7 @@
     "type_projet": "Projet fictif réalisé dans le cadre de ma formation",
     "cover": "print.webp",
     "langages": ["html-1.svg", "sass-1.svg", "javascript-1.svg"],
-    "description_projet": "Je débute comme développeuse front-end en freelance, et je viens de décrocher une offre pour dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it. On me demande de réaliser un carousel."
+    "description_projet": "Je débute comme développeuse front-end en freelance, et je viens de décrocher une offre pour dynamiser le site Internet statique d’une petite imprimerie familiale nommée Print it. Je réalise un carousel en javascript."
   },
   {
     "id": "5",
@@ -47,7 +47,7 @@
     "type_projet": "Projet fictif réalisé dans le cadre de ma formation",
     "cover": "Sophie.webp",
     "langages": ["html-1.svg", "css-3.svg", "javascript-1.svg"],
-    "description_projet": "Je travaille comme développeuse front-end pour l’agence ArchiWebos qui comprend 50 salariés. Ayant terminé mon dernier projet avec un peu d'avance, je suis envoyée en renfort comme développeuse front-end d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.Je dois donc développer :la page de présentation des travaux de l'architecte (à partir du HTML fourni) ;la page de connexion de l'administrateur du site (le client) (code à créer de zéro) ;la modale permettant d'uploader de nouveaux médias (code à créer from scratch)."
+    "description_projet": "Je travaille comme développeuse front-end pour l’agence ArchiWebos. Ayant terminé mon dernier projet, je suis envoyée en renfort d’une équipe qui travaille sur la conception du site portfolio d’une architecte d’intérieur.Je dois donc développer :la page de présentation des travaux de l'architecte (à partir du HTML fourni) ;la page de connexion de l'administrateur du site (le client) avec l'uilisation d'une API; la modale permettant d'uploader de nouveaux médias."
   },
   {
     "id": "6",
@@ -77,7 +77,7 @@
     "type_projet": "Projet fictif réalisé dans le cadre de ma formation",
     "cover": "724events.webp",
     "langages": ["html-1.svg", "react-2.svg", "sass-1.svg"],
-    "description_projet": "Je suis développeuse front-end freelance, et l’agence évènementielle 724events me contacte pour une mission.   L’agence souhaite publier la nouvelle version de son site vitrine. Il s’agit d’un site one-page. Le design a été validé, et un premier développeur freelance a commencé l’intégration il y a quelques semaines. Ce freelance a dû abandonner le projet pour raisons personnelles. Le site est fonctionnel, mais quelques bugs entravent le bon usage par les visiteurs. 724events fait donc appel à vous pour finaliser le travail. J'ai modifié le code, en fonction des bugs repérés(grace en partie à Chrome DevTools), afin qu'il réponde au besoin du client."
+    "description_projet": "Je suis développeuse front-end freelance, et l’agence évènementielle 724events me contacte pour une mission. Il s’agit d’un site one-page. Un premier développeur freelance a commencé l’intégration et je dois continuer son travail. Le site est fonctionnel, mais des bugs sont présents. Je dois finaliser le travail. J'ai modifié le code, en fonction des bugs repérés(grace à Chrome DevTools et React Developer Tools). j'ai réalisé des test unitaires et fonctionnels et rédigé un cahier de recette."
   },
   {
     "id": "9",
@@ -87,7 +87,7 @@
     "type_projet": "Projet fictif réalisé dans le cadre de ma formation",
     "cover": "argentbank.webp",
     "langages": ["sass-1.svg", "react-2.svg", "redux.svg"],
-    "description_projet": "J'ai utilisé React et Redux pour développer l'interface utilisateur de l'application bancaire ArgentBank, en me concentrant sur la création d'un tableau de bord complet et responsive pour les utilisateurs. L'utilisateur peut, lorsqu'il est connecté, modifié son pseudo et avoir accés à ses comptes. "
+    "description_projet": "J'ai utilisé React et Redux pour développer l'interface utilisateur de l'application bancaire ArgentBank, en me concentrant sur la création d'un tableau de bord complet et responsive pour les utilisateurs. L'utilisateur peut, lorsqu'il est connecté, modifié son pseudo et avoir accés à ses comptes. Réalisation d'une documentation swagger"
   },
   {
     "id": "10",

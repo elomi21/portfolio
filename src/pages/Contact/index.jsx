@@ -1,5 +1,5 @@
-import Form from "../../components/form";
-// import Mail from "../../components/mail";
+// import Form from "../../components/form";
+import Mail from "../../components/mail";
 // import Tally from "../../components/tally";
 import Line from "../../components/line";
 
@@ -8,8 +8,8 @@ function Contact() {
     <main>
       <Line />
       {/* <Tally /> */}
-      <Form />
-      {/* <Mail /> */}
+      {/* <Form /> */}
+      <Mail />
     </main>
   );
 }
