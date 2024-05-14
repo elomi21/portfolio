@@ -42,7 +42,7 @@ function Carousel() {
           src={Arrowleft}
           alt="arrow_left"
         />
-        <div className="container-carousel">
+        <ul className="container-carousel">
           <Card
             id={projetsdata[currentCard].id}
             title={projetsdata[currentCard].title}
@@ -50,7 +50,7 @@ function Carousel() {
             langages={projetsdata[currentCard].langages}
             showmore={toggleDescription}
           />
-        </div>
+        </ul>
         <img
           onClick={NextCard}
           className="c-sl-ar"

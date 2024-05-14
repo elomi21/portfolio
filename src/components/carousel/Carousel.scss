@@ -13,9 +13,10 @@
 .container-carousel {
   width: 1000px;
   height: 415px;
+  padding: 0;
 }
-.c-sl-al, 
-.c-sl-ar{
+.c-sl-al,
+.c-sl-ar {
   cursor: pointer;
   &:hover {
     scale: 1.2;

@@ -14,11 +14,24 @@ function Header() {
     <header>
       <nav className={HamburgerOpen ? "expanded" : ""}>
         <div onClick={toggleHamburger}>{<Hamburger />}</div>
-        <div className={`nav-link ${HamburgerOpen ? "nav-link-visibility" : ""}`}>
-          <NavLink to="/" onClick={closeMenu}>Accueil</NavLink>
-          <NavLink to="/Projets" onClick={closeMenu}>Projets</NavLink>
-          <NavLink to="/Competences" onClick={closeMenu}>Compétences</NavLink>
-          <NavLink to="/Contact" onClick={closeMenu}>Contact</NavLink>
+        <div
+          className={`nav-link ${HamburgerOpen ? "nav-link-visibility" : ""}`}
+        >
+          <h1 className="title" onClick={closeMenu}>
+            E.m
+          </h1>
+          <NavLink to="/" onClick={closeMenu}>
+            Accueil
+          </NavLink>
+          <NavLink to="/Projets" onClick={closeMenu}>
+            Projets
+          </NavLink>
+          <NavLink to="/Competences" onClick={closeMenu}>
+            Compétences
+          </NavLink>
+          <NavLink to="/Contact" onClick={closeMenu}>
+            Contact
+          </NavLink>
         </div>
       </nav>
     </header>
