@@ -17,9 +17,6 @@ function Header() {
         <div
           className={`nav-link ${HamburgerOpen ? "nav-link-visibility" : ""}`}
         >
-          <h1 className="title" onClick={closeMenu}>
-            E.m
-          </h1>
           <NavLink to="/" onClick={closeMenu}>
             Accueil
           </NavLink>
