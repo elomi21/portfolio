@@ -16,7 +16,7 @@ function Banner() {
           </h2>
           <p>
             Je suis spécialisée dans l'intégration de maquette et la réalisation de
-            site web.
+            site web React.
           </p>
           <p>Je porte un fort intéret pour le web design.</p>
           <div className="s-b-c-ti_t_social-media">
